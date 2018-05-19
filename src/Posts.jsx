@@ -12,7 +12,7 @@ export default class Posts extends React.Component {
   }
 
   async componentDidMount() {
-    const response = await axios('/posts');
+    const response = await axios('/api');
     this.setState({
       posts: response.data,
     });

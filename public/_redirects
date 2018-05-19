@@ -1,5 +1,5 @@
 # proxy api requests
-/posts/* https://jsonplaceholder.typicode.com/posts/:splat 200
+/api/* https://netlify-spring-boot-test.herokuapp.com/api/:splat 200
 
 # SPA
 /*    /index.html   200
