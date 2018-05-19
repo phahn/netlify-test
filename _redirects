@@ -1,0 +1,5 @@
+# proxy api requests
+/posts/* https://jsonplaceholder.typicode.com/posts/:splat
+
+# SPA
+/*    /index.html   200
